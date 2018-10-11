@@ -1,0 +1,18 @@
+#!/bin/bash
+
+make clean
+make test_age
+./test_age
+make test_genre
+./test_genre
+make test_library
+./test_library
+make test_media
+./test_media
+make test_patron
+./test_patron
+make test_publication
+./test_publication
+
+# make test_view -- Must test the GUI interactively
+
